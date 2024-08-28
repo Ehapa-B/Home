@@ -45,10 +45,17 @@
 }
 
 @media (max-width: 500px) {
-    .box-sections,
-    .box-sectioned {
+  .box-sections,
+  .box-sectioned {
       padding: 50px 85px;
-    }
+  }
+}
+
+@media (max-width: 425px) {
+  .box-sections,
+  .box-sectioned {
+      padding: 50px 80px;
+  }
 }
 
 @media (max-width: 379px) {
