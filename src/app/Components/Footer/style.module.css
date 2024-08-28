@@ -1,0 +1,33 @@
+.bottom {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0px;
+    border-top: 1px solid #ddd;
+    background-color: #ffffff;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: -70px;
+}
+
+.bottom label:hover {
+    background-color: yellow;
+}
+
+
+@media (min-width: 1440px) {
+    .bottom {
+        margin-left: -120px;
+    }
+}
+
+@media (max-width: 768px) {
+    .bottom {
+        margin-left: -50px;
+    }
+}
+ 
+@media (max-width: 600px) {
+    .bottom {
+        margin-left: 0;
+    }
+}

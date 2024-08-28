@@ -1,0 +1,28 @@
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 19px;
+    color: #4F4F4F;
+    cursor: pointer;
+}
+  
+.nav-icon {
+    gap: 19rem;
+    width: 24px;
+    height: 24px;
+    margin-bottom: 5px;
+}
+
+.nav-item .nav-icon {
+    width: 27px;
+    height: 27px;
+    transition: filter 0.3s ease;
+}
+  
+.nav-item .nav-icon:hover {
+    transform: scale(1.0);
+    filter: invert(92%) sepia(77%) saturate(592%) hue-rotate(1deg) brightness(103%) contrast(103%);
+}
+  
+  
