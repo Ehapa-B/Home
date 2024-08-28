@@ -1,5 +1,4 @@
 .box {
-  width: 100%;
   display: flex;
   flex: 1;
   gap: 50px;
@@ -47,14 +46,14 @@
 @media (max-width: 500px) {
   .box-sections,
   .box-sectioned {
-      padding: 50px 70px;
+      padding: 50px 85px;
   }
 }
 
 @media (max-width: 425px) {
   .box-sections,
   .box-sectioned {
-      padding: 50px 70px;
+      padding: 50px 80px;
   }
 }
 
