@@ -53,14 +53,14 @@
 @media (max-width: 379px) {
     .box-sections,
     .box-sectioned {
-      padding: 50px 70px;
+      padding: 50px 75px;
     }
 }
 
 @media (max-width: 325px) {
     .box-sections,
     .box-sectioned {
-      padding: 50px 64px;
+      padding: 50px 70px;
     }
 }
 
