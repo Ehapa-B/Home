@@ -1,9 +1,10 @@
 .box {
-    display: flex;
-    flex: 1;
-    gap: 50px;
-    flex-direction: row;
-    margin: 40px;
+  width: 100%;
+  display: flex;
+  flex: 1;
+  gap: 50px;
+  flex-direction: row;
+  margin: 40px;
 }
 
 .box-sections,
@@ -46,7 +47,7 @@
 @media (max-width: 500px) {
     .box-sections,
     .box-sectioned {
-      padding: 50px 84px;
+      padding: 50px 87px;
     }
 }
 
