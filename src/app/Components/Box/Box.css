@@ -46,21 +46,21 @@
 @media (max-width: 500px) {
     .box-sections,
     .box-sectioned {
-      padding: 50px 91px;
+      padding: 50px 81px;
     }
 }
 
 @media (max-width: 379px) {
     .box-sections,
     .box-sectioned {
-      padding: 50px 79px;
+      padding: 50px 70px;
     }
 }
 
 @media (max-width: 325px) {
     .box-sections,
     .box-sectioned {
-      padding: 50px 65px;
+      padding: 50px 64px;
     }
 }
 
